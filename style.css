@@ -25,11 +25,12 @@ body
 
  @keyframes title-show
  {
-     0%{opacity: 0;}
-     40%{opacity: 0.5;}
-     60%{opacity: 0.8}
-     90%{opacity: 0.5;}
-     100%{opacity: 1;}
+     0%   {opacity: 0;}
+     40%  {opacity: 0.5;}
+     60%  {opacity: 0.8}
+     90%  {opacity: 0.5;}
+     99%  {opacity: 1;}
+     100% {opacity: 0;}
  }
 
 .coffee-cup-loading
