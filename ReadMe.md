@@ -20,6 +20,8 @@ There is also some sound effects
 
 ## Inspirations
 
--Pinterest for CCS objets
--Adobe XD for the web site's design
--Some Coffee Brands : Starbucks and Nespresso
+- Pinterest for CCS objets
+- Adobe XD for the web site's design
+- Some Coffee Brands : Starbucks and Nespresso
+
+Enjoy it ! ^^
