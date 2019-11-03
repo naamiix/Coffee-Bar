@@ -2,6 +2,8 @@
 
 Welcome to the coffee bar ! Let's make your personalized coffee.
 
+Sorry, there is no responsive, please use a computer.
+
 ## Features
 
 You can make your own coffee by :
