@@ -10,13 +10,17 @@ You can make your own coffee by :
 - Choosing your coffee flavor
 - Selecting how many sugar you want
 
-You can see the composition of your coffee
+You can see the composition of your coffee.
 
 You can listen some music : 
 - clicking on play button
 - there is one song
 
-There is also some sound effects
+There is also some sound effects.
+
+## Online WebSite
+
+https://naamiix.github.io/coffeeBar/
 
 ## Inspirations
 
@@ -24,4 +28,4 @@ There is also some sound effects
 - Adobe XD for the web site's design
 - Some Coffee Brands : Starbucks and Nespresso
 
-Enjoy it ! ^^
+Enjoy it ! ^^ 
