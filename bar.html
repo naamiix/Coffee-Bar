@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Coffee Bar</title>
+    <link rel="shortcut icon" href="pictures/favicon-coffee-cap.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Lato|Zeyada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bar.css">
+</head>
+<body>
+    <div class="container-title">
+        <h1 class="title">The Coffee Bar</h1>
+    </div>
+    <div class="container-bar">
+        <div class="glass">
+            <div class="hat">
+                <div class="part-1"></div>
+                <div class="part-2"></div>
+                <div class="part-3"></div>
+                <img src="pictures/steam.png" alt="steam" class="steam">
+            </div>
+            <div class="coffee-liquid">
+                <div class="js-liquids liquid-1"><p>Milk Foam</p></div>
+                <div class="js-liquids liquid-2"><p>Hot Milk</p></div>
+                <div class="js-liquids liquid-3"><p>Chocolate Sirup</p></div>
+                <div class="js-liquids liquid-4"><p>Simple Arabica Coffee</p></div>
+                <div class="js-liquids liquid-5"><p>Tight Arabica Coffee</p></div>
+                <audio class="pourring"> 
+                    <source src="audio/coffee-pourring.mp3" type="audio/mp3" />
+                </audio>
+            </div>
+            <div class="stencil">
+                <div class="stencil-1"></div>
+                <div class="stencil-2"></div>
+                <div class="stencil-3"></div>
+            </div>
+            <div class="strip">
+                <a href="index.html" title="Home"></a>
+            </div>
+        </div>
+        <div class="container-column">
+            <div class="instruction-1-size">
+                <h3>1. Choose your size</h3>
+                <div class="size-selector">
+                    <div class="js-size size-xl">VENTI</div>
+                    <div class="js-size size-l">GRANDE</div>
+                    <div class="js-size size-m">TALL</div>
+                </div>
+                <div class="container-restart">
+                    <div class="music-restart-row">
+                         <a href="bar.html" title="Restart"><img src="pictures/restart.png" alt="Restart"></a>
+                         <audio class="music"> 
+                             <source src="audio/jazz-1.mp3" type="audio/mp3" />
+                         </audio>
+                         <div class="container-music-control">
+                             <img src="pictures/paused.png" alt="Paused" class="paused-music">
+                             <img src="pictures/play.png" alt="Play" class="play-music">
+                         </div>
+                    </div>
+                    <p>Click on the play button !</p>
+                </div>
+            </div>
+            <div class="instruction-2-name">
+                <h3>2. Write your name</h3>
+                <div class="write-name">
+                    <input type="text" value="" id="name"/>
+                    <div class="button-name-confirm">Confirm</div>
+                </div>
+            </div>
+        </div>
+        <div class="instruction-3-coffee">
+            <h3>3. Choose your coffee</h3>
+            <div class="caps">
+                <div class="js-cap cap-1">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div>   
+                    </div>
+                    <p>Classic Coffee</p>
+                </div>
+                <div class="js-cap cap-2">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div> 
+                    </div>
+                    <p>Expresso</p>
+                 </div>
+                <div class="js-cap cap-3">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div> 
+                    </div>
+                    <p>Cappuccino</p>
+                </div>
+                <div class="js-cap cap-4">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div> 
+                    </div>
+                    <p>Macchiato</p>
+                </div>
+                <div class="js-cap cap-5">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div> 
+                    </div>
+                    <p>Latte</p>
+                </div>
+                <div class="js-cap cap-6">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div> 
+                    </div>
+                    <p>Mocha</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-recap-sugar">
+            <div class="container-recap">
+                <h3>You choose</h3>
+                <div class="js-cap js-cap-recap">
+                    <div class="cap">
+                        <div class="hat-cap"></div>
+                        <div class="body-cap"></div>
+                        <div class="bottom-cap"></div>   
+                    </div>
+                    <p></p>
+                </div>
+                <p class="tips">You can hover the cup to see what your coffee is made of !</p>
+            </div>
+            <div class="end-simulation">
+                <h2></h2>
+                <p>Have a good tasting ! Thank you for participating in the simulation, you can start the experience again by clicking on your name !</p>
+            </div>
+            <div class="container-sugar">
+                <h3>Some sugar ?</h3>
+                <div class="container-selection-sugar">
+                    <p>MIN</p>
+                    <div class="sugar"></div>
+                    <div class="sugar"></div>
+                    <div class="sugar"></div>
+                    <div class="sugar"></div>
+                    <div class="sugar"></div>
+                    <p>MAX</p>
+                </div>
+                <div class="button-continue">Continue</div>
+            </div>
+        </div>
+    </div>
+    <script src="bar.js"></script>
+</body>
+</html>
