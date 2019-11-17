@@ -1,6 +1,6 @@
 body
 {
-     --main-color: #2F2003;
+     --main-color: #4E3301;
      background-color: var(--main-color);
      overflow:hidden;
 }
@@ -381,7 +381,7 @@ h1.title
      position: absolute;
      width: calc(var(--width) + 150px) ;
      height: 0px;
-     background-color: #4F3607;
+     background-color: #764F0A;
      bottom : -40px;
      transform: translateX(-75px);
      will-change: height ;
