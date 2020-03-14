@@ -1,3 +1,12 @@
+const buttonStart = document.querySelector('.js-start')
+const titleHome = document.querySelector('.title-home')
+const coffeeCupLoad = document.querySelector('.coffee-cup-loading')
+
+
+const titleGame = document.querySelector('.title')
+const instruction1Size = document.querySelector('.instruction-1-size')
+
+
 const buttonSize = document.querySelectorAll('.js-size')
 const coffeeCup = document.querySelector('.glass')
 
@@ -33,6 +42,15 @@ let pourring = document.querySelector('.pourring')
 let size
 let capTaste
 
+console.log(instruction1Size)
+buttonStart.addEventListener('click', () =>
+{
+    titleHome.style.display = 'none'
+    coffeeCupLoad.style.display = 'none'
+    titleGame.style.animationPlayState = 'running'
+    instruction1Size.style.animationPlayState = 'running'
+    console.log('click')
+})
 
 playMusic.addEventListener('click', ()=>
 {
